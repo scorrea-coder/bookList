@@ -1,0 +1,54 @@
+@import "@material/button/mdc-button";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/typography/mdc-typography";
+@import "@material/textfield/mdc-text-field";
+@import "@material/snackbar/mdc-snackbar";
+@import "@material/theme/mixins";
+@import "@material/theme/variables";
+@import "@material/list/mdc-list";
+
+$color: '#000';
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    margin: 30px auto;
+    display: grid;
+    grid-auto-columns: 50%;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.foo-button {
+    @include mdc-button-ink-color(teal);
+    @include mdc-states(teal);
+  }
+
+  .title {
+    margin: 90px auto 0 auto;
+    text-align: center;
+  }
+
+  #books {
+      display: grid;
+      grid-auto-columns: 50%;
+      justify-content: center;
+  }
+
+  .book-length {
+      text-align: center;
+  }
+
+  .mdc-list--two-line .mdc-list-item__text {
+      width: 100%;
+  }
+
+  .delete {
+    position: absolute;
+    right: 4%;
+    top: 30%;
+  }

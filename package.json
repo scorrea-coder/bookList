@@ -2,7 +2,7 @@
   "name": "booklist-app",
   "version": "1.0.0",
   "description": "Book App",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "@material/dialog": "^2.3.0",
     "@material/form-field": "^2.3.0",

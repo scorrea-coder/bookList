@@ -12,7 +12,8 @@
     "@material/textfield": "^2.3.0",
     "@material/top-app-bar": "^2.3.0",
     "@material/typography": "^2.3.0",
-    "material-components-web": "^2.3.0"
+    "material-components-web": "^2.3.0",
+    "netlify-cli": "^2.11.19"
   },
   "devDependencies": {
     "@material/button": "^2.3.0",

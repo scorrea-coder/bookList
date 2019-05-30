@@ -1,7 +1,7 @@
 {
   "name": "booklist-app",
   "version": "1.0.0",
-  "description": "Book App",
+  "description": "Material | MyBookList App",
   "main": "app.js",
   "dependencies": {
     "@material/dialog": "^2.3.0",
